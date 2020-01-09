@@ -28,4 +28,4 @@ test_3 = [false, nil, nil, nil, true]
 
 #puts test_3.reduce(0) { |sum, n| sum + n}
 
-puts 0 + nil
+puts false + nil
