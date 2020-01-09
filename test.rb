@@ -27,3 +27,5 @@ test_3 = [false, nil, nil, nil, true]
 #test_reduce(test_two, 100){|memo, n| memo + n}
 
 puts test_3.reduce(0) { |sum, n| sum + n}
+
+puts 
